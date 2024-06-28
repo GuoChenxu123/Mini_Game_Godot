@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cw4uejvnaacwv"]
+
+[ext_resource type="Script" path="res://Scripts/GridNode2dScene.cs" id="1_b5l6o"]
+
+[node name="GridNode2d" type="Node2D"]
+script = ExtResource("1_b5l6o")
+ShowGrid = true
+GridSize = Vector2i(6, 4)
+CellSize = Vector2i(240, 216)
+BorderColor = Color(0.394531, 0.394531, 0.394531, 1)
+BorderWidth = 0.01

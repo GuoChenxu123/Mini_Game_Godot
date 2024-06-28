@@ -1,0 +1,860 @@
+[
+  {
+    "id": 1,
+    "name": "冰淇淋",
+    "description": 1,
+    "image": "/Resources/Garbage1/1001.png"
+  },
+  {
+    "id": 2,
+    "name": "茶叶",
+    "description": 1,
+    "image": "/Resources/Garbage1/1002.png"
+  },
+  {
+    "id": 3,
+    "name": "果皮",
+    "description": 1,
+    "image": "/Resources/Garbage1/1003.png"
+  },
+  {
+    "id": 4,
+    "name": "坏饼干",
+    "description": 1,
+    "image": "/Resources/Garbage1/1004.png"
+  },
+  {
+    "id": 5,
+    "name": "火锅汤料",
+    "description": 1,
+    "image": "/Resources/Garbage1/1005.png"
+  },
+  {
+    "id": 6,
+    "name": "烂萝卜",
+    "description": 1,
+    "image": "/Resources/Garbage1/1006.png"
+  },
+  {
+    "id": 7,
+    "name": "烂白菜",
+    "description": 1,
+    "image": "/Resources/Garbage1/1007.png"
+  },
+  {
+    "id": 8,
+    "name": "烂香蕉",
+    "description": 1,
+    "image": "/Resources/Garbage1/1008.png"
+  },
+  {
+    "id": 9,
+    "name": "过期面包",
+    "description": 1,
+    "image": "/Resources/Garbage1/1009.png"
+  },
+  {
+    "id": 10,
+    "name": "苹果核",
+    "description": 1,
+    "image": "/Resources/Garbage1/1010.png"
+  },
+  {
+    "id": 11,
+    "name": "生鲜水产",
+    "description": 1,
+    "image": "/Resources/Garbage1/1011.png"
+  },
+  {
+    "id": 12,
+    "name": "剩饭剩菜",
+    "description": 1,
+    "image": "/Resources/Garbage1/1012.png"
+  },
+  {
+    "id": 13,
+    "name": "剩饭团",
+    "description": 1,
+    "image": "/Resources/Garbage1/1013.png"
+  },
+  {
+    "id": 14,
+    "name": "剩鸡腿",
+    "description": 1,
+    "image": "/Resources/Garbage1/1014.png"
+  },
+  {
+    "id": 15,
+    "name": "剩披萨",
+    "description": 1,
+    "image": "/Resources/Garbage1/1015.png"
+  },
+  {
+    "id": 16,
+    "name": "剩水饺",
+    "description": 1,
+    "image": "/Resources/Garbage1/1016.png"
+  },
+  {
+    "id": 17,
+    "name": "剩香肠",
+    "description": 1,
+    "image": "/Resources/Garbage1/1017.png"
+  },
+  {
+    "id": 18,
+    "name": "烂瓜果烂蔬菜",
+    "description": 1,
+    "image": "/Resources/Garbage1/1018.png"
+  },
+  {
+    "id": 19,
+    "name": "植物枝叶",
+    "description": 1,
+    "image": "/Resources/Garbage1/1019.png"
+  },
+  {
+    "id": 20,
+    "name": "宠物饲料",
+    "description": 1,
+    "image": "/Resources/Garbage1/1020.png"
+  },
+  {
+    "id": 21,
+    "name": "蛋壳",
+    "description": 1,
+    "image": "/Resources/Garbage1/1021.png"
+  },
+  {
+    "id": 22,
+    "name": "糖果",
+    "description": 1,
+    "image": "/Resources/Garbage1/1022.png"
+  },
+  {
+    "id": 23,
+    "name": "糖葫芦",
+    "description": 1,
+    "image": "/Resources/Garbage1/1023.png"
+  },
+  {
+    "id": 24,
+    "name": "调味料",
+    "description": 1,
+    "image": "/Resources/Garbage1/1024.png"
+  },
+  {
+    "id": 25,
+    "name": "水果皮",
+    "description": 1,
+    "image": "/Resources/Garbage1/1025.png"
+  },
+  {
+    "id": 26,
+    "name": "鱼虾海鲜类",
+    "description": 1,
+    "image": "/Resources/Garbage1/1026.png"
+  },
+  {
+    "id": 27,
+    "name": "鱼骨头",
+    "description": 1,
+    "image": "/Resources/Garbage1/1027.png"
+  },
+  {
+    "id": 28,
+    "name": "玉米棒",
+    "description": 1,
+    "image": "/Resources/Garbage1/1028.png"
+  },
+  {
+    "id": 29,
+    "name": "粽子/饭团",
+    "description": 1,
+    "image": "/Resources/Garbage1/1029.png"
+  },
+  {
+    "id": 30,
+    "name": "U盘",
+    "description": 2,
+    "image": "/Resources/Garbage2/2001.png"
+  },
+  {
+    "id": 31,
+    "name": "办公纸张",
+    "description": 2,
+    "image": "/Resources/Garbage2/2002.png"
+  },
+  {
+    "id": 32,
+    "name": "报纸",
+    "description": 2,
+    "image": "/Resources/Garbage2/2003.png"
+  },
+  {
+    "id": 33,
+    "name": "笔记本电脑",
+    "description": 2,
+    "image": "/Resources/Garbage2/2004.png"
+  },
+  {
+    "id": 34,
+    "name": "玻璃杯",
+    "description": 2,
+    "image": "/Resources/Garbage2/2005.png"
+  },
+  {
+    "id": 35,
+    "name": "玻璃镜子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2006.png"
+  },
+  {
+    "id": 36,
+    "name": "玻璃瓶玻璃杯",
+    "description": 2,
+    "image": "/Resources/Garbage2/2007.png"
+  },
+  {
+    "id": 37,
+    "name": "破碎的玻璃瓶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2008.png"
+  },
+  {
+    "id": 38,
+    "name": "刀锯类",
+    "description": 2,
+    "image": "/Resources/Garbage2/2009.png"
+  },
+  {
+    "id": 39,
+    "name": "金属餐具",
+    "description": 2,
+    "image": "/Resources/Garbage2/2010.png"
+  },
+  {
+    "id": 40,
+    "name": "打包盒子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2011.png"
+  },
+  {
+    "id": 41,
+    "name": "耳机",
+    "description": 2,
+    "image": "/Resources/Garbage2/2012.png"
+  },
+  {
+    "id": 39,
+    "name": "废书纸",
+    "description": 2,
+    "image": "/Resources/Garbage2/2013.png"
+  },
+  {
+    "id": 40,
+    "name": "塑料水果篮子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2014.png"
+  },
+  {
+    "id": 41,
+    "name": "罐头瓶子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2015.png"
+  },
+  {
+    "id": 42,
+    "name": "金属锅具",
+    "description": 2,
+    "image": "/Resources/Garbage2/2016.png"
+  },
+  {
+    "id": 43,
+    "name": "家用电器",
+    "description": 2,
+    "image": "/Resources/Garbage2/2017.png"
+  },
+  {
+    "id": 44,
+    "name": "剪刀",
+    "description": 2,
+    "image": "/Resources/Garbage2/2018.png"
+  },
+  {
+    "id": 45,
+    "name": "键盘",
+    "description": 2,
+    "image": "/Resources/Garbage2/2019.png"
+  },
+  {
+    "id": 46,
+    "name": "金属或塑料衣架",
+    "description": 2,
+    "image": "/Resources/Garbage2/2020.png"
+  },
+  {
+    "id": 47,
+    "name": "螺丝钉",
+    "description": 2,
+    "image": "/Resources/Garbage2/2021.png"
+  },
+  {
+    "id": 48,
+    "name": "玻璃酒瓶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2022.png"
+  },
+  {
+    "id": 49,
+    "name": "开瓶器",
+    "description": 2,
+    "image": "/Resources/Garbage2/2023.png"
+  },
+  {
+    "id": 50,
+    "name": "可乐瓶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2024.png"
+  },
+  {
+    "id": 51,
+    "name": "矿泉水瓶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2025.png"
+  },
+  {
+    "id": 52,
+    "name": "玩具车",
+    "description": 2,
+    "image": "/Resources/Garbage2/2026.png"
+  },
+  {
+    "id": 53,
+    "name": "轮胎",
+    "description": 2,
+    "image": "/Resources/Garbage2/2027.png"
+  },
+  {
+    "id": 54,
+    "name": "螺母",
+    "description": 2,
+    "image": "/Resources/Garbage2/2028.png"
+  },
+  {
+    "id": 55,
+    "name": "螺丝刀",
+    "description": 2,
+    "image": "/Resources/Garbage2/2029.png"
+  },
+  {
+    "id": 56,
+    "name": "毛巾",
+    "description": 2,
+    "image": "/Resources/Garbage2/2030.png"
+  },
+  {
+    "id": 57,
+    "name": "毛绒玩具",
+    "description": 2,
+    "image": "/Resources/Garbage2/2031.png"
+  },
+  {
+    "id": 58,
+    "name": "帽子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2032.png"
+  },
+  {
+    "id": 59,
+    "name": "内存卡",
+    "description": 2,
+    "image": "/Resources/Garbage2/2033.png"
+  },
+  {
+    "id": 60,
+    "name": "牛奶盒",
+    "description": 2,
+    "image": "/Resources/Garbage2/2034.png"
+  },
+  {
+    "id": 61,
+    "name": "皮箱",
+    "description": 2,
+    "image": "/Resources/Garbage2/2035.png"
+  },
+  {
+    "id": 62,
+    "name": "手表",
+    "description": 2,
+    "image": "/Resources/Garbage2/2036.png"
+  },
+  {
+    "id": 63,
+    "name": "显示器",
+    "description": 2,
+    "image": "/Resources/Garbage2/2037.png"
+  },
+  {
+    "id": 64,
+    "name": "手套",
+    "description": 2,
+    "image": "/Resources/Garbage2/2038.png"
+  },
+  {
+    "id": 65,
+    "name": "手提包",
+    "description": 2,
+    "image": "/Resources/Garbage2/2039.png"
+  },
+  {
+    "id": 66,
+    "name": "书包",
+    "description": 2,
+    "image": "/Resources/Garbage2/2040.png"
+  },
+  {
+    "id": 67,
+    "name": "鼠标",
+    "description": 2,
+    "image": "/Resources/Garbage2/2041.png"
+  },
+  {
+    "id": 68,
+    "name": "水果刀",
+    "description": 2,
+    "image": "/Resources/Garbage2/2042.png"
+  },
+  {
+    "id": 69,
+    "name": "纸袋子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2043.png"
+  },
+  {
+    "id": 70,
+    "name": "塑料壶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2044.png"
+  },
+  {
+    "id": 71,
+    "name": "电话机",
+    "description": 2,
+    "image": "/Resources/Garbage2/2045.png"
+  },
+  {
+    "id": 72,
+    "name": "塑料水桶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2046.png"
+  },
+  {
+    "id": 73,
+    "name": "废旧手机",
+    "description": 2,
+    "image": "/Resources/Garbage2/2047.png"
+  },
+  {
+    "id": 74,
+    "name": "一次性塑料袋",
+    "description": 2,
+    "image": "/Resources/Garbage2/2048.png"
+  },
+  {
+    "id": 75,
+    "name": "杂志期刊",
+    "description": 2,
+    "image": "/Resources/Garbage2/2049.png"
+  },
+  {
+    "id": 76,
+    "name": "塑料盆",
+    "description": 2,
+    "image": "/Resources/Garbage2/2050.png"
+  },
+  {
+    "id": 77,
+    "name": "台灯",
+    "description": 2,
+    "image": "/Resources/Garbage2/2051.png"
+  },
+  {
+    "id": 78,
+    "name": "台式电脑",
+    "description": 2,
+    "image": "/Resources/Garbage2/2052.png"
+  },
+  {
+    "id": 79,
+    "name": "纸质图片",
+    "description": 2,
+    "image": "/Resources/Garbage2/2053.png"
+  },
+  {
+    "id": 80,
+    "name": "塑料瓶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2054.png"
+  },
+  {
+    "id": 81,
+    "name": "塑胶瓶",
+    "description": 2,
+    "image": "/Resources/Garbage2/2055.png"
+  },
+  {
+    "id": 82,
+    "name": "袜子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2056.png"
+  },
+  {
+    "id": 83,
+    "name": "钟表",
+    "description": 2,
+    "image": "/Resources/Garbage2/2057.png"
+  },
+  {
+    "id": 84,
+    "name": "纸盒",
+    "description": 2,
+    "image": "/Resources/Garbage2/2058.png"
+  },
+  {
+    "id": 85,
+    "name": "织布衣物",
+    "description": 2,
+    "image": "/Resources/Garbage2/2059.png"
+  },
+  {
+    "id": 86,
+    "name": "铁钉",
+    "description": 2,
+    "image": "/Resources/Garbage2/2060.png"
+  },
+  {
+    "id": 87,
+    "name": "塑胶牙刷",
+    "description": 2,
+    "image": "/Resources/Garbage2/2061.png"
+  },
+  {
+    "id": 88,
+    "name": "金属易拉罐",
+    "description": 2,
+    "image": "/Resources/Garbage2/2062.png"
+  },
+  {
+    "id": 89,
+    "name": "纸杯",
+    "description": 2,
+    "image": "/Resources/Garbage2/2063.png"
+  },
+  {
+    "id": 90,
+    "name": "鞋子",
+    "description": 2,
+    "image": "/Resources/Garbage2/2064.png"
+  },
+  {
+    "id": 91,
+    "name": "塑胶杯",
+    "description": 2,
+    "image": "/Resources/Garbage2/2065.png"
+  },
+  {
+    "id": 92,
+    "name": "快餐盒",
+    "description": 2,
+    "image": "/Resources/Garbage2/2066.png"
+  },
+  {
+    "id": 93,
+    "name": "纸质提袋",
+    "description": 2,
+    "image": "/Resources/Garbage2/2067.png"
+  },
+  {
+    "id": 94,
+    "name": "包装纸盒",
+    "description": 2,
+    "image": "/Resources/Garbage2/2068.png"
+  },
+  {
+    "id": 95,
+    "name": "纸质食品袋",
+    "description": 2,
+    "image": "/Resources/Garbage2/2069.png"
+  },
+  {
+    "id": 96,
+    "name": "纸质标牌",
+    "description": 2,
+    "image": "/Resources/Garbage2/2070.png"
+  },
+  {
+    "id": 97,
+    "name": "大骨头",
+    "description": 3,
+    "image": "/Resources/Garbage3/3001.png"
+  },
+  {
+    "id": 98,
+    "name": "铅笔或水笔芯",
+    "description": 3,
+    "image": "/Resources/Garbage3/3002.png"
+  },
+  {
+    "id": 99,
+    "name": "砖头",
+    "description": 3,
+    "image": "/Resources/Garbage3/3003.png"
+  },
+  {
+    "id": 100,
+    "name": "泥土",
+    "description": 3,
+    "image": "/Resources/Garbage3/3004.png"
+  },
+  {
+    "id": 101,
+    "name": "假牙",
+    "description": 3,
+    "image": "/Resources/Garbage3/3005.png"
+  },
+  {
+    "id": 102,
+    "name": "废旧浴缸",
+    "description": 3,
+    "image": "/Resources/Garbage3/3006.png"
+  },
+  {
+    "id": 103,
+    "name": "炉灰香灰",
+    "description": 3,
+    "image": "/Resources/Garbage3/3007.png"
+  },
+  {
+    "id": 104,
+    "name": "内裤/尿不湿",
+    "description": 3,
+    "image": "/Resources/Garbage3/3008.png"
+  },
+  {
+    "id": 105,
+    "name": "内衣",
+    "description": 3,
+    "image": "/Resources/Garbage3/3009.png"
+  },
+  {
+    "id": 106,
+    "name": "废纸巾",
+    "description": 3,
+    "image": "/Resources/Garbage3/3010.png"
+  },
+  {
+    "id": 107,
+    "name": "烟头",
+    "description": 3,
+    "image": "/Resources/Garbage3/3012.png"
+  },
+  {
+    "id": 108,
+    "name": "眼镜",
+    "description": 3,
+    "image": "/Resources/Garbage3/3013.png"
+  },
+  {
+    "id": 109,
+    "name": "瓦片",
+    "description": 3,
+    "image": "/Resources/Garbage3/3014.png"
+  },
+  {
+    "id": 110,
+    "name": "竹制品",
+    "description": 3,
+    "image": "/Resources/Garbage3/3015.png"
+  },
+  {
+    "id": 111,
+    "name": "砖块瓦片陶瓷类",
+    "description": 3,
+    "image": "/Resources/Garbage3/3016.png"
+  },
+  {
+    "id": 112,
+    "name": "贝壳",
+    "description": 3,
+    "image": "/Resources/Garbage3/3017.png"
+  },
+  {
+    "id": 113,
+    "name": "陶瓷罐",
+    "description": 3,
+    "image": "/Resources/Garbage3/3018.png"
+  },
+  {
+    "id": 114,
+    "name": "陶瓷茶杯",
+    "description": 3,
+    "image": "/Resources/Garbage3/3019.png"
+  },
+  {
+    "id": 115,
+    "name": "陶瓷瓶",
+    "description": 3,
+    "image": "/Resources/Garbage3/3020.png"
+  },
+  {
+    "id": 116,
+    "name": "马桶",
+    "description": 3,
+    "image": "/Resources/Garbage3/3021.png"
+  },
+  {
+    "id": 117,
+    "name": "木桌椅",
+    "description": 3,
+    "image": "/Resources/Garbage3/3022.png"
+  },
+  {
+    "id": 118,
+    "name": "LED灯",
+    "description": 4,
+    "image": "/Resources/Garbage4/4001.png"
+  },
+  {
+    "id": 119,
+    "name": "X光片",
+    "description": 4,
+    "image": "/Resources/Garbage4/4002.png"
+  },
+  {
+    "id": 120,
+    "name": "创可贴",
+    "description": 4,
+    "image": "/Resources/Garbage4/4003.png"
+  },
+  {
+    "id": 121,
+    "name": "灯泡",
+    "description": 4,
+    "image": "/Resources/Garbage4/4004.png"
+  },
+  {
+    "id": 122,
+    "name": "废电池",
+    "description": 4,
+    "image": "/Resources/Garbage4/4005.png"
+  },
+  {
+    "id": 123,
+    "name": "废油漆桶",
+    "description": 4,
+    "image": "/Resources/Garbage4/4006.png"
+  },
+  {
+    "id": 124,
+    "name": "国企药物",
+    "description": 4,
+    "image": "/Resources/Garbage4/4007.png"
+  },
+  {
+    "id": 125,
+    "name": "节能灯",
+    "description": 4,
+    "image": "/Resources/Garbage4/4008.png"
+  },
+  {
+    "id": 126,
+    "name": "杀虫剂",
+    "description": 4,
+    "image": "/Resources/Garbage4/4009.png"
+  },
+  {
+    "id": 127,
+    "name": "水银血压计",
+    "description": 4,
+    "image": "/Resources/Garbage4/4010.png"
+  },
+  {
+    "id": 128,
+    "name": "体温计",
+    "description": 4,
+    "image": "/Resources/Garbage4/4011.png"
+  },
+  {
+    "id": 129,
+    "name": "相机底片",
+    "description": 4,
+    "image": "/Resources/Garbage4/4012.png"
+  },
+  {
+    "id": 130,
+    "name": "药品包装",
+    "description": 4,
+    "image": "/Resources/Garbage4/4013.png"
+  },
+  {
+    "id": 131,
+    "name": "化妆品",
+    "description": 4,
+    "image": "/Resources/Garbage4/4014.png"
+  },
+  {
+    "id": 132,
+    "name": "纸质书签",
+    "description": 2,
+    "image": "/Resources/Garbage2/2071.png"
+  },
+  {
+    "id": 133,
+    "name": "衣服吊牌",
+    "description": 2,
+    "image": "/Resources/Garbage2/2072.png"
+  },
+  {
+    "id": 134,
+    "name": "牙膏皮",
+    "description": 2,
+    "image": "/Resources/Garbage2/2073.png"
+  },
+  {
+    "id": 135,
+    "name": "药品包装",
+    "description": 4,
+    "image": "/Resources/Garbage4/4015.png"
+  },
+  {
+    "id": 136,
+    "name": "药膏皮",
+    "description": 4,
+    "image": "/Resources/Garbage4/4016.png"
+  },
+  {
+    "id": 137,
+    "name": "榴莲外壳",
+    "description": 3,
+    "image": "/Resources/Garbage3/3034.png"
+  },
+  {
+    "id": 138,
+    "name": "椰子外壳",
+    "description": 3,
+    "image": "/Resources/Garbage3/3035.png"
+  },
+  {
+    "id": 139,
+    "name": "干燥剂",
+    "description": 3,
+    "image": "/Resources/Garbage3/3036.png"
+  },
+  {
+    "id": 140,
+    "name": "菠萝蜜壳",
+    "description": 3,
+    "image": "/Resources/Garbage3/3033.png"
+  }
+]
