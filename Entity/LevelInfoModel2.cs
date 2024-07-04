@@ -9,5 +9,6 @@ namespace Mini_Game_Godot.Entity
     public class LevelInfoModel2 : BaseLeveInfo
     {
         public int TimeLimit { get; set; }
+        public int number_of_garbage { get; set; }
     }
 }

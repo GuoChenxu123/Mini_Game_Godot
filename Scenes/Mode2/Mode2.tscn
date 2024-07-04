@@ -88,3 +88,5 @@ text = "返回 "
 [node name="GridNode2d" parent="." instance=ExtResource("4_bwfrq")]
 position = Vector2(0, 216)
 BorderWidth = 1.0
+
+[connection signal="pressed" from="Top/MarginContainer2/Button" to="." method="OnButtonClick_returnGame"]

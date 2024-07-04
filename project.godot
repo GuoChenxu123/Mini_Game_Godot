@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Mini_Game_Godot"
-run/main_scene="res://Scenes/Mode2/Mode2.tscn"
+run/main_scene="res://Scenes/Main/main.tscn"
 config/features=PackedStringArray("4.2", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+LoadGarbage="*res://Scripts/AutoLoad/load_garbage.cs"
 
 [display]
 

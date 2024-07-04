@@ -1,0 +1,100 @@
+[gd_scene load_steps=13 format=3 uid="uid://4nq67wyi53ke"]
+
+[ext_resource type="Texture2D" uid="uid://ckfvkrqumnyrh" path="res://Resources/background/backgroundHome.jpg" id="1_djk1v"]
+[ext_resource type="Script" path="res://Scenes/Main/main.cs" id="1_t6e8d"]
+[ext_resource type="Texture2D" uid="uid://caq3gtb7gwkhw" path="res://Resources/button/非焦点-分类知识.png" id="2_ynnje"]
+[ext_resource type="Texture2D" uid="uid://cjuecbkoycpa6" path="res://Resources/button/焦点-分类知识.png" id="3_bfqjw"]
+[ext_resource type="Texture2D" uid="uid://dj4dt2gui0i5a" path="res://Resources/button/非焦点-垃圾快选.png" id="4_kmumi"]
+[ext_resource type="Texture2D" uid="uid://8o4gashyakkb" path="res://Resources/button/焦点-垃圾快选.png" id="5_65jgo"]
+[ext_resource type="Texture2D" uid="uid://d05ujic8bvjpd" path="res://Resources/button/非焦点-分类竞赛.png" id="6_ggthk"]
+[ext_resource type="Texture2D" uid="uid://clpwqrv3s342j" path="res://Resources/button/焦点-分类竞赛.png" id="7_bicmm"]
+[ext_resource type="Texture2D" uid="uid://cn5h5qnw6xe7j" path="res://Resources/button/非焦点-快问快答.png" id="8_cybli"]
+[ext_resource type="Texture2D" uid="uid://bodrwj5xed0ia" path="res://Resources/button/焦点-快问快答.png" id="9_eirtp"]
+[ext_resource type="Texture2D" uid="uid://s07i7n44ujfs" path="res://Resources/button/非焦点-退出.png" id="10_bpbow"]
+[ext_resource type="Texture2D" uid="uid://l4rltalocwiv" path="res://Resources/button/焦点-退出.png" id="11_vh2ck"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_t6e8d")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_djk1v")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -97.0
+offset_top = -32.0
+offset_right = -57.0
+offset_bottom = 8.0
+
+[node name="Box" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 8.0
+anchor_top = 1.15
+anchor_right = 45.2
+anchor_bottom = 27.15
+offset_right = -28.0
+alignment = 1
+
+[node name="Box" type="HBoxContainer" parent="Control/Box"]
+layout_mode = 2
+alignment = 1
+
+[node name="TextureButton2" type="TextureButton" parent="Control/Box/Box"]
+layout_mode = 2
+texture_normal = ExtResource("2_ynnje")
+texture_hover = ExtResource("3_bfqjw")
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/Box/Box"]
+layout_mode = 2
+theme_override_constants/margin_left = 500
+theme_override_constants/margin_right = 500
+
+[node name="TextureButton" type="TextureButton" parent="Control/Box/Box"]
+layout_mode = 2
+texture_normal = ExtResource("4_kmumi")
+texture_hover = ExtResource("5_65jgo")
+
+[node name="Box2" type="HBoxContainer" parent="Control/Box"]
+layout_mode = 2
+alignment = 1
+
+[node name="TextureButton3" type="TextureButton" parent="Control/Box/Box2"]
+layout_mode = 2
+texture_normal = ExtResource("6_ggthk")
+texture_hover = ExtResource("7_bicmm")
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/Box/Box2"]
+layout_mode = 2
+theme_override_constants/margin_left = 500
+theme_override_constants/margin_right = 500
+
+[node name="TextureButton4" type="TextureButton" parent="Control/Box/Box2"]
+layout_mode = 2
+texture_normal = ExtResource("8_cybli")
+texture_hover = ExtResource("9_eirtp")
+
+[node name="Box3" type="HBoxContainer" parent="Control/Box"]
+layout_mode = 2
+alignment = 1
+
+[node name="TextureButton5" type="TextureButton" parent="Control/Box/Box3"]
+layout_mode = 2
+texture_normal = ExtResource("2_ynnje")
+texture_hover = ExtResource("3_bfqjw")
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/Box/Box3"]
+layout_mode = 2
+theme_override_constants/margin_left = 500
+theme_override_constants/margin_right = 500
+
+[node name="TextureButton6" type="TextureButton" parent="Control/Box/Box3"]
+layout_mode = 2
+texture_normal = ExtResource("10_bpbow")
+texture_hover = ExtResource("11_vh2ck")
+
+[connection signal="pressed" from="Control/Box/Box/TextureButton2" to="." method="OnButtonClick_btn2"]
+[connection signal="pressed" from="Control/Box/Box3/TextureButton6" to="." method="OnButtonClick_exit"]
